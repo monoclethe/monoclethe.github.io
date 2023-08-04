@@ -1,2 +1,2 @@
 # monoclethe.github.io
-My main repository 🤓
+Monocle's Website and Blog 🎩
