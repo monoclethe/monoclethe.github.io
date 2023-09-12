@@ -15,7 +15,7 @@ title = input("Title: ")
 content = input("Content: ")
 print("<p><strong>" + time + " - " + title + "</strong><br>" + content + "</p>")
 if bool(input("Is this correct? true/false ")):
-    htmlfile.insert(end-1, "            <p><strong>" + time + " - " + title + "</strong><br>" + content + "</p>\n")
+    htmlfile.insert(23, "            <p><strong>" + time + " - " + title + "</strong><br>" + content + "</p>\n")
 
 with open("index.html", "r+") as f:
     f.truncate(0)
