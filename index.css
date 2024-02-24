@@ -1,0 +1,38 @@
+html {
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1, h2, a {
+    font-family:'Courier New', Courier, monospace;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid gray;
+}
+
+.contentContainer {
+    display: flex;
+    margin-top: 10px;
+}
+.ccChild {
+    flex: 1;
+    padding: 5px;
+    border: 2px solid black;
+}
+.ccChild:first-child {
+    margin-right: 10px;
+}
+.socials {
+    border-bottom: 2px dashed gray;
+    
+}
+a {
+    display: inline-block;
+    border: 1px solid white;
+}
+a:hover {
+    border: 1px solid black;
+}
