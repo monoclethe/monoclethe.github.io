@@ -1,28 +1,4 @@
 html {
-    background-color: black;
-    color: white;
-}
-header {
-    border-bottom: 2px solid white;
-}
-.ccChild {
-    border: 2px solid white;
-}
-.socials {
-    border-bottom: 2px dashed gray;
-    
-}
-a {
-    border: 1px black;
-}
-svg {
-    background-color: white;
-}
-a:visited {
-    color: pink;
-}
-
-html {
     background-color: #04001c;
     color: white;
 }
