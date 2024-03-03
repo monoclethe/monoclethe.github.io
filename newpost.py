@@ -2,7 +2,7 @@ import datetime
 doctext = ""
 addIndex = 0
 
-with open("index.html", "r+") as doc:
+with open("index.html", "r+", encoding="utf8") as doc:
     doctext = str(doc.read())
     docparts = doctext.split("<!--newpost-->")
     title = input("Title: ")
