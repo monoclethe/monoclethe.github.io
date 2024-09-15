@@ -67,11 +67,10 @@ footer {
     padding: 5px;
     background-color: rgb(79, 50, 79);
     width: 100vw;
-    position: absolute;
-    bottom: 0;
-    left: 0;
     margin: 0;
     box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
 }
 .projects img {
     width: 100%;
