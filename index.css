@@ -101,3 +101,9 @@ h2 {
 a {
     color: white;
 }
+img {
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: white;
+    box-sizing: border-box;
+}
