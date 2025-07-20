@@ -3,48 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monocle's Stuff</title>
-    <link href="reset.css" rel="stylesheet">
-    <link href="index.css" rel="stylesheet">
-    <script src="index.js" defer></script>
-    <link rel="icon" type="image/x-icon" href="galaxy2scratch.jpg">
+    <title>Monocle - Home</title>
+    <link rel="icon" type="image/x-icon" href="/img/icon.png">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="js/index.js" defer></script>
 </head>
 <body>
     <header>
-        <img src="galaxy2scratch.jpg">Monocle's Website - Digital Portfolio
+        <img src="img/icon.png">
+        <span class="marquee">Monocle - Home</span>
     </header>
-    <table class="nav">
-        <tbody>
-            <tr>
-                <td><a href="https://monoclethe.github.io/">Home</a></td>
-                <td><a href="https://monoclethe.github.io/blog">Blog</a></td>
-                <td><a href="https://monoclethe.github.io/projects">Projects</a></td>
-            </tr>
-        </tbody>
-    </table>
-    <div class="main">
-        <h1>About</h1>
-        This is my website! Here you'll find information about my projects and current goings on. I mostly mess around in HTML and JS but I may occasionally post something else here.
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+    <div class="container">
+        <div class="textbox" style="flex: 2">
+            <h2>About</h2>
+            <p>Welcome to my website!<br>Here is where you can find all my public projects, links, and information. I'm a college student who likes to make various things with my skills in my free time, which could range from games to websites to chemistry or electrical projects. Whatever I'm working on, you can find it here.</p>
+        </div>
     </div>
-    <div class="main">
-        <h1>Featured Projects</h1>
-        <table class="projects">
-            <tbody>
-                <tr>
-                    <td><a href="https://monoclethe.github.io/InfiniSweeper/">Infinisweeper</a><br><img src="infinisweeperScreenshot.png"><br><p>Infinisweeper is a clone of the site <a href="https://www.1000mines.com/">1000 Mines</a>. It's an infinite version of minesweeper, and you can adjust the difficulty. Be careful, as if you mess up once you have to start all over!</p></td>
-                    <td><a href="https://monoclethe.github.io/protobowlremake/">Protobowl Remake</a><br><img src="protobowlRemake.png"><br><p>Protobowl Remake is a clone of <a href="https://protobowl.com/">Protobowl</a>. It's almost the same thing, but I added some QoL features that aren't in the original.</p></td>
-                    <td><a href="https://monoclethe.github.io/ELEM5/">ELEM5</a><br><img src="elem5.png"><br><p>Elem5 is a remake of <a href="https://htwins.net/elem3/">Elemental 3</a>, which is now defunct. It's a simple, light, local version where there's not much to discover but you can have some fun making your own elements.</p></td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="container">
+        <div class="textbox"><h2>Infinisweeper</h2></div>
+        <div class="textbox"><h2>Protobowl Remake</h2></div>
+        <div class="textbox"><h2>Elem5</h2></div>
     </div>
-    <div class="main">
-        <h1>Links</h1>
-        Here are my other social links!<br>
-        <a href="https://www.youtube.com/channel/UCDQfHn6Weu-fY7JfiySjtTw"><img src="youtube.png" width="50px"></a>
-        <a href="https://github.com/monoclethe"><img src="github.png" width="50px" id="githubIcon"></a>
+    <div class="container">
+        <div class="textbox"><img src="img/minesweeper.png"></div>
+        <div class="textbox"><img src="img/pbr.png"></div>
+        <div class="textbox"><img src="img/elem5.png"></div>
     </div>
-    <hr>
-    <footer>© monoclethe - All rights reserved - This website only uses necessary cookies 🍪</footer>
+    <div class="container">
+        <div class="textbox">
+            <h2>Links</h2>
+        </div>
+    </div>
+    <div class="container footer">
+        <a href="https://www.youtube.com/channel/UCDQfHn6Weu-fY7JfiySjtTw" class="textbox" style="text-align: center">
+            <img src="img/youtube.png" style="vertical-align: middle; height: 64px">
+            <span style="font-size: xx-large; vertical-align: middle;">YouTube</span>
+        </a>
+        <a href="https://github.com/monoclethe" class="textbox" style="text-align: center">
+            <img src="img/github.png" width="64px" style="vertical-align: middle; border: 0px solid white; background-color: white; border-radius: 64px;">
+            <span style="font-size: xx-large; vertical-align: middle;">GitHub</span>
+        </a>
+    </div>
+    <div class="container">
+        <div class="textbox" style="text-align: center">
+            © 2025 - All Rights Reserved - Made by Monocle
+        </div>
+    </div>
 </body>
 </html>
