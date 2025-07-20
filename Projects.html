@@ -3,45 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monocle's Stuff</title>
-    <link href="reset.css" rel="stylesheet">
-    <link href="index.css" rel="stylesheet">
-    <script src="index.js" defer></script>
-    <link rel="icon" type="image/x-icon" href="galaxy2scratch.jpg">
+    <title>Monocle - Home</title>
+    <link rel="icon" type="image/x-icon" href="/img/icon.png">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="js/index.js" defer></script>
 </head>
 <body>
     <header>
-        <img src="galaxy2scratch.jpg">Monocle's Website - Digital Portfolio
+        <img src="img/icon.png">
+        <span class="marquee">Monocle - Home</span>
     </header>
-    <table class="nav">
-        <tbody>
-            <tr>
-                <td><a href="https://monoclethe.github.io/">Home</a></td>
-                <td><a href="https://monoclethe.github.io/blog">Blog</a></td>
-                <td><a href="https://monoclethe.github.io/projects">Projects</a></td>
-            </tr>
-        </tbody>
-    </table>
-    <div class="main">
-        <h1>My Projects</h1>
-        All my projects I have on github, all in one place. Sorted chronologically.
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+    <div class="container">
+        <div class="textbox" style="flex: 2">
+            <h2>Projects</h2>
+            <p>Here you can see all my projects, descriptions of them, and their update dates.</p>
+        </div>
     </div>
-    <div class="post">
-        <h2><a href="https://monoclethe.github.io/InfiniSweeper/">Infinisweeper</a></h2>
-        <p>Infinisweeper is a clone of the site <a href="https://www.1000mines.com/">1000 Mines</a>. It's an infinite version of minesweeper, and you can adjust the difficulty. Be careful, as if you mess up once you have to start all over!</p>
+    <div class="container">
+        <div class="textbox" style="flex: 1">
+            <a href="https://monoclethe.github.io/InfiniSweeper/"><h2>Infinisweeper</h2></a>
+            <p>Infinite minesweeper, inspired by 500mines.</p>
+        </div>
+        <div class="textbox" style="flex: 1; text-align: center;">
+            <h2>Version</h2>
+            <h3>1.0</h3>
+        </div>
+        <div class="textbox" style="flex: 1; text-align: center;">
+            <h2>Last Updated</h2>
+            <h3>9/17/2024</h3>
+        </div>
     </div>
-    <div class="post">
-        <h2><a href="https://monoclethe.github.io/protobowlremake/">Protobowl Remake</a></h2>
-        <p>Protobowl Remake is a clone of <a href="https://protobowl.com/">Protobowl</a>. It's almost the same thing, but I added some QoL features that aren't in the original.</p>
+
+    <div class="container">
+        <div class="textbox" style="flex: 1">
+            <a href="https://monoclethe.github.io/protobowlremake/"><h2>Protobowl Remake</h2></a>
+            <p>A remake of Protobowl, an online quizbowl practice app.</p>
+        </div>
+        <div class="textbox" style="flex: 1; text-align: center;">
+            <h2>Version</h2>
+            <h3>1.2.0</h3>
+        </div>
+        <div class="textbox" style="flex: 1; text-align: center;">
+            <h2>Last Updated</h2>
+            <h3>10/28/2024</h3>
+        </div>
     </div>
-    <div class="post">
-        <h2><a href="https://monoclethe.github.io/ELEM5/">ELEM5</a></h2>
-        <p>Elem5 is a remake of <a href="https://htwins.net/elem3/">Elemental 3</a>, which is now defunct. It's a simple, light, local version where there's not much to discover but you can have some fun making your own elements.</p>
+
+    <div class="container">
+        <div class="textbox" style="flex: 1">
+            <a href="https://monoclethe.github.io/ELEM5/"><h2>Elemental 5</h2></a>
+            <p>A very simple elemental clone, minimally developed and mostly abandoned.</p>
+        </div>
+        <div class="textbox" style="flex: 1; text-align: center;">
+            <h2>Version</h2>
+            <h3>1.33a</h3>
+        </div>
+        <div class="textbox" style="flex: 1; text-align: center;">
+            <h2>Last Updated</h2>
+            <h3>3/11/2024</h3>
+        </div>
     </div>
-    <div class="post">
-        <h2><a href="https://monoclethe.github.io/minesweeper/">Minesweeper</a></h2>
-        <p>A simple clone of minesweeper. Made in about a week because I was bored.</p>
+    <div class="container">
+        <div class="textbox" style="text-align: center">
+            © 2025 - All Rights Reserved - Made by Monocle
+        </div>
     </div>
-    <footer>© monoclethe - All rights reserved - This website only uses necessary cookies 🍪</footer>
 </body>
 </html>
