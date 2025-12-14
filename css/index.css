@@ -1,6 +1,6 @@
 @font-face {
-    font-family: bitcount;
-    src: url(/font/BitCount.ttf);
+    font-family: optima;
+    src: url(/font/OPTIMA.ttf);
 }
 body {
     background: #2f0061;
@@ -10,13 +10,13 @@ header {
     height: 37px;
     background-color: black;
     color: white;
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 32px;
     padding: 5px;
     font-size: xx-large;
     overflow: hidden;
     position: relative;
-    font-family: bitcount;
+    font-family: optima;
 }
 img {
     display: inline-block;
@@ -64,12 +64,12 @@ nav {
         background-color: black;
         display: inline-block;
         color: white;
-        font-family: sans-serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         text-align: center;
         line-height: 30px;
         font-size: x-large;
         transition: background-color 0.1s, letter-spacing 0.1s ease-in-out;
-        font-family: bitcount;
+        font-family: optima;
         padding-top: 3px;
     }
     a:hover {
@@ -97,9 +97,9 @@ nav {
         background-color: black;
         color: white;
         padding: 5px;
-        font-family: sans-serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         h2 {
-            font-family: bitcount;
+            font-family: optima;
             font-size: x-large;
             text-decoration: underline;
             text-align: center;
@@ -117,12 +117,12 @@ nav {
         background-color: black;
         display: inline-block;
         color: white;
-        font-family: sans-serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         text-align: center;
         line-height: 30px;
         font-size: x-large;
         transition: background-color 0.1s, letter-spacing 0.1s ease-in-out;
-        font-family: bitcount;
+        font-family: optima;
         padding-top: 3px;
     }
     a:hover {
@@ -138,6 +138,6 @@ a {
     text-decoration: none;
 }
 h3 {
-    font-family: bitcount;
+    font-family: optima;
     font-size: xx-large;
 }
