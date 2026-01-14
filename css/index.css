@@ -1,10 +1,5 @@
-@font-face {
-    font-family: optima;
-    src: url(/font/OPTIMA.ttf);
-}
 body {
-    background: #2f0061;
-    background: linear-gradient(90deg,rgba(47, 0, 97, 1) 0%, rgba(84, 0, 67, 1) 50%, rgba(102, 0, 53, 1) 100%);
+    background: #080820;
 }
 header {
     height: 37px;
@@ -16,7 +11,6 @@ header {
     font-size: xx-large;
     overflow: hidden;
     position: relative;
-    font-family: optima;
 }
 img {
     display: inline-block;
@@ -69,15 +63,14 @@ nav {
         line-height: 30px;
         font-size: x-large;
         transition: background-color 0.1s, letter-spacing 0.1s ease-in-out;
-        font-family: optima;
         padding-top: 3px;
     }
     a:hover {
-        background-color: #404;
+        background-color: #448;
         letter-spacing: 3px;
     }
     a:active {
-        background-color: #606;
+        background-color: #66c;
         letter-spacing: normal;
     }
 }
@@ -99,7 +92,6 @@ nav {
         padding: 5px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         h2 {
-            font-family: optima;
             font-size: x-large;
             text-decoration: underline;
             text-align: center;
@@ -122,22 +114,51 @@ nav {
         line-height: 30px;
         font-size: x-large;
         transition: background-color 0.1s, letter-spacing 0.1s ease-in-out;
-        font-family: optima;
         padding-top: 3px;
     }
     a:hover {
-        background-color: #404;
+        background-color: #008;
         letter-spacing: 3px;
     }
     a:active {
-        background-color: #606;
+        background-color: #00c;
         letter-spacing: normal;
     }
 }
+.bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: calc(100% - 20px);
+}
 a {
-    text-decoration: none;
+    color: #88f;
 }
 h3 {
-    font-family: optima;
     font-size: xx-large;
+}
+
+table {
+    color: white;
+    width: 100%;
+    border-spacing: 5px;
+    border-collapse: separate;
+    td {
+        background-color: black;
+        padding: 5px;
+        text-align: center;
+        font-size: x-large;
+    }
+}
+
+.linklist {
+    text-decoration: none;
+    a {text-decoration: none; color: white;}
+}
+
+.featured {
+    table-layout: fixed;
+    img {
+    width: 100%;
+    }
 }
