@@ -125,12 +125,6 @@ nav {
         letter-spacing: normal;
     }
 }
-.bottom {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: calc(100% - 20px);
-}
 a {
     color: #88f;
 }
